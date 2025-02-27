@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: white;
+    padding: 1rem;
+    text-align: center;
+    /* border-bottom: 2px solid green; */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    width: fit-content;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* do you need overflow? */
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-text, .about-image {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+.about-text {
+    background: orange;
+}
+
+.about-image {
+    background: red;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* display: block; */
+    margin-bottom: 10px;
+}
+
+/* monitor */
+
+/* Flexbox Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    border: 10px solid #7A6D66;
+}
+
+/* Left Section */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Info Box */
+.info-box {
+    background-color: #86A2B3;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    position: relative;
+}
+
+/* Follow Button */
+.follow-btn {
+    background-color: #F3E1A6;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #9E2F55;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    background-color: #F9F8E9;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 80px;
+    border-radius: 30px;
+}
+/* monitor */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 1rem;
+}
